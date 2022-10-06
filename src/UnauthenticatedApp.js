@@ -7,7 +7,7 @@ import { typography } from "./styles";
 import { NavLink } from "react-router-dom";
 
 const StyledUnAuthenticatedApp = styled.div`
-  height: 75vh;
+  height: 85vh;
 `;
 
 const CustomLink = styled(NavLink)`

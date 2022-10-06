@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 const StyledProductPage = styled.div`
   display: flex;
   flex-direction: column;
-  height: 75vh;
+  height: 85vh;
   align-items: center;
   padding-top: 50px;
 `;

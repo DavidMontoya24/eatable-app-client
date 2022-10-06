@@ -1,10 +1,10 @@
-import styled from '@emotion/styled';
+import styled from "@emotion/styled";
 
 // CheckOut Page
 
 export const Section = styled.div`
   margin: auto;
-  height: 75vh;
+  height: 85vh;
   border-radius: 20px;
   padding: 0 50px;
 `;
@@ -78,7 +78,7 @@ export const ContainOrder = styled.div`
 `;
 
 export const Total = styled.p`
-  font-family: 'SF Pro Text';
+  font-family: "SF Pro Text";
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -87,7 +87,7 @@ export const Total = styled.p`
 `;
 
 export const PriceOrder = styled.p`
-  font-family: 'SF Pro Text';
+  font-family: "SF Pro Text";
   font-style: normal;
   font-weight: 600;
   font-size: 22px;

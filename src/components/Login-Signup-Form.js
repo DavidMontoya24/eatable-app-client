@@ -1,8 +1,8 @@
-import styled from '@emotion/styled';
-import { useEffect, useState } from 'react';
-import Input from './Input';
-import Button from './Button';
-import { useAuth } from '../context/auth-context';
+import styled from "@emotion/styled";
+import { useEffect, useState } from "react";
+import Input from "./Input";
+import Button from "./Button";
+import { useAuth } from "../context/auth-context";
 
 const StyledForm = styled.section`
   height: 60%;
@@ -20,34 +20,28 @@ const FormLogin = styled.form`
 `;
 
 const LoginButton = styled.div`
-  margin-top: 209px;
-  /* margin-bottom: 40px; */
-  /* margin-top: auto; */
+  margin-top: 40px;
   width: 100%;
 `;
 
 const Form = ({ logInUp }) => {
-  console.log("HOLA")
+  console.log("HOLA");
   const [formData, setFormData] = useState({
-    email: '',
-    password: '',
+    email: "",
+    password: "",
   });
-
- 
 
   const [errors, setErrors] = useState("");
 
   const [errorsSignup, setErrorsSignup] = useState({
-    email: '',
-    password: '',
+    email: "",
+    password: "",
   });
 
-  useEffect(
-    () =>{
-      setErrors("")
-      setErrorsSignup({email: '', password: ''})
-    },[logInUp]
-  ) 
+  useEffect(() => {
+    setErrors("");
+    setErrorsSignup({ email: "", password: "" });
+  }, [logInUp]);
 
   function handleChange(e) {
     const { name, value } = e.target;
@@ -58,11 +52,14 @@ const Form = ({ logInUp }) => {
   // setErrors("");
   function handleSubmit(e) {
     e.preventDefault();
-    
-    if (logInUp === 'Login') {
+
+    if (logInUp === "Login") {
       login(formData).catch((error) => setErrors(JSON.parse(error.message)));
     } else {
-      signup(formData).catch((error) => {console.log(error.message);setErrorsSignup(JSON.parse(error.message))});
+      signup(formData).catch((error) => {
+        console.log(error.message);
+        setErrorsSignup(JSON.parse(error.message));
+      });
     }
   }
 
@@ -70,26 +67,28 @@ const Form = ({ logInUp }) => {
     <StyledForm>
       <FormLogin onSubmit={handleSubmit}>
         <Input
-          type='email'
-          name='email'
-          placeholder='my_mail@mail.com'
-          label='Email address'
+          type="email"
+          name="email"
+          placeholder="my_mail@mail.com"
+          label="Email address"
           onChange={handleChange}
           value={formData.email}
           error={errorsSignup.email}
         />
         <Input
-          type='password'
-          name='password'
-          placeholder='******'
-          label='Password'
+          type="password"
+          name="password"
+          placeholder="******"
+          label="Password"
           onChange={handleChange}
           value={formData.password}
           error={errorsSignup.password}
         />
-        <span data-cy="error-login" style={{color: "red"}}>{errors}</span>
+        <span data-cy="error-login" style={{ color: "red" }}>
+          {errors}
+        </span>
         <LoginButton>
-          <Button type='submit'>{logInUp}</Button>
+          <Button type="submit">{logInUp}</Button>
         </LoginButton>
       </FormLogin>
     </StyledForm>

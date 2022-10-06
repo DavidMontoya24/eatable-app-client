@@ -1,14 +1,14 @@
-import styled from '@emotion/styled';
-import { colors } from '../styles';
-import { FaChevronLeft } from 'react-icons/fa';
-import EditProfileForm from '../components/EditProfileForm';
-import ShowProfile from '../components/ProfileCard';
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { useAuth } from '../context/auth-context';
+import styled from "@emotion/styled";
+import { colors } from "../styles";
+import { FaChevronLeft } from "react-icons/fa";
+import EditProfileForm from "../components/EditProfileForm";
+import ShowProfile from "../components/ProfileCard";
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import { useAuth } from "../context/auth-context";
 
 const Container = styled.section`
-  height: 75vh;
+  height: 85vh;
   padding: 50px 50px 0 50px;
 `;
 
@@ -26,12 +26,14 @@ function ProfilePage() {
   return (
     <Container>
       <Header>
-        <Link to='/products'>
-          <FaChevronLeft size='1.5rem' color={`${colors.black}`} />
+        <Link to="/products">
+          <FaChevronLeft size="1.5rem" color={`${colors.black}`} />
         </Link>
         <h2>My Profile</h2>
       </Header>
-      {goEdit === false && <ShowProfile handleBack={() => setGoEdit(true)} userData ={ user } />}
+      {goEdit === false && (
+        <ShowProfile handleBack={() => setGoEdit(true)} userData={user} />
+      )}
       {goEdit === true && <EditProfileForm />}
     </Container>
   );
