@@ -1,17 +1,83 @@
-import React from 'react';
+import React from "react";
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { Global } from "@emotion/react";
+import { global, reset } from "./styles";
+import App from "./App";
+import { BrowserRouter } from "react-router-dom";
+import { AuthProvider } from "./context/auth-context";
+import loading from './assets/loading.png';
+import Logo from './assets/eatable-logo.svg';
+import styled from "@emotion/styled";
+import { colors } from "./styles";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const ContainerLoading = styled.div`
+  position: relative;
+    display: inline-block;
+    text-align: center;
+`
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const ContainerLogo = styled.div`
+  width: 262px;
+  height: 262px;
+  border-radius: 100%;
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 317px;
+  left: 76px;
+
+`
+
+const ImageTitle = styled.img`
+margin-top: 86px;
+`
+
+const LoginSubTitle = styled.div`
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 8px;
+  margin-top: 12px;
+  color: ${colors.orange};
+`;
+
+setTimeout(loadingMain, 2000)
+loadingPage()
+
+function loadingPage(){
+
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+
+  root.render(
+    <React.StrictMode>
+      <Global styles={global} />
+      <Global styles={reset} />
+      <ContainerLoading>
+      <img src={loading} alt="Loading"/>
+      <ContainerLogo>
+        <ImageTitle src={Logo} alt='logo' />
+        <LoginSubTitle>Food for Everyone</LoginSubTitle>
+      </ContainerLogo>
+      </ContainerLoading>
+    </React.StrictMode>
+  );
+
+}
+
+function loadingMain()
+{
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+
+  root.render(
+    <React.StrictMode>
+      <Global styles={global} />
+      <Global styles={reset} />
+      <BrowserRouter>
+        <AuthProvider>
+          <App />
+        </AuthProvider>
+      </BrowserRouter>
+    </React.StrictMode>
+  );
+}
+

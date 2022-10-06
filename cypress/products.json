@@ -1,0 +1,268 @@
+{
+  "products": [
+    {
+      "id": 288,
+      "name": "Sopa de maní",
+      "price": 1000,
+      "category": "bolivian",
+      "description": "La sopa de maní boliviano es un de las recetas más comunes y exquisitas de Bolivia",
+      "picture_url": "https://recetasdebolivia.com/wp-content/uploads/2022/02/Sopa-de-Mani-boliviano.jpg.webp"
+    },
+    {
+      "id": 192,
+      "name": "pasta cocida",
+      "price": 31,
+      "category": "italian",
+      "description": "Delicious dish",
+      "picture_url": "https://img.freepik.com/free-photo/zucchini-cream-soup-with-garlic-chilli_2829-19613.jpg"
+    },
+    {
+      "id": 272,
+      "name": "Papa a la huancaina",
+      "price": 10,
+      "category": "peruvian",
+      "description": "Delicious dish",
+      "picture_url": "http://gustolatinogastronomia.com/wp-content/uploads/2014/08/papa-a-la-huancaina-lista.jpg?w=584"
+    },
+    {
+      "id": 187,
+      "name": "Cream Soup",
+      "price": 4000,
+      "category": "italian",
+      "description": "Delicious dish",
+      "picture_url": "https://img.freepik.com/free-photo/zucchini-cream-soup-with-garlic-chilli_2829-19613.jpg"
+    },
+    {
+      "id": 188,
+      "name": "sopa",
+      "price": 5,
+      "category": "criollo",
+      "description": "muy rico",
+      "picture_url": "https://img.freepik.com/free-photo/zucchini-cream-soup-with-garlic-chilli_2829-19613.jpg"
+    },
+    {
+      "id": 191,
+      "name": "Causa rellena",
+      "price": 4000,
+      "category": "italian",
+      "description": "Delicious dish",
+      "picture_url": "https://img.freepik.com/free-photo/zucchini-cream-soup-with-garlic-chilli_2829-19613.jpg"
+    },
+    {
+      "id": 246,
+      "name": "Pizza Brava xd",
+      "price": 45,
+      "category": "italian",
+      "description": "pizza with tocino",
+      "picture_url": "https://img.freepik.com/free-photo/zucchini-cream-soup-with-garlic-chilli_2829-19613.jpg"
+    },
+    {
+      "id": 190,
+      "name": "Pollo a la brasa",
+      "price": 25,
+      "category": "Grasa",
+      "description": "Pura grasa",
+      "picture_url": "https://img.freepik.com/free-photo/zucchini-cream-soup-with-garlic-chilli_2829-19613.jpg"
+    },
+    {
+      "id": 189,
+      "name": "pasta madness XD",
+      "price": 2000,
+      "category": "italian",
+      "description": "Delicious dish",
+      "picture_url": "https://img.freepik.com/free-photo/zucchini-cream-soup-with-garlic-chilli_2829-19613.jpg"
+    },
+    {
+      "id": 253,
+      "name": "Tallarin rojo",
+      "price": 10,
+      "category": "Criollo",
+      "description": "Delicious food",
+      "picture_url": "https://recetascocinaperuana.com/wp-content/uploads/2022/03/tallarines-rojos-con-pollo.jpg"
+    },
+    {
+      "id": 194,
+      "name": "Termino el extended wuuu",
+      "price": 1000,
+      "category": "mexican",
+      "description": "Este plato rompe mis estilos con un titulo muy largo :u",
+      "picture_url": "https://www.unileverfoodsolutions.com.mx/tendencias/de-mexico-para-el-mundo/platillos-mexicanos/top10-platillos/jcr:content/parsys/content-aside-footer/columncontrol_copy/columnctrl_parsys_1/textimage_copy/image.transform/jpeg-optimized/image.1592429867593.jpg"
+    },
+    {
+      "id": 252,
+      "name": "Estofado de Pollo",
+      "price": 10,
+      "category": "Criollo",
+      "description": "Comida bien conocida",
+      "picture_url": "https://www.comida-peruana.com/base/stock/Recipe/113-image/113-image_web.jpg"
+    },
+    {
+      "id": 257,
+      "name": "pasta verde",
+      "price": 1000,
+      "category": "italian",
+      "description": "Delicious dish",
+      "picture_url": "https://img.freepik.com/free-photo/zucchini-cream-soup-with-garlic-chilli_2829-19613.jpg"
+    },
+    {
+      "id": 258,
+      "name": "pasta roja",
+      "price": 1000,
+      "category": "italian",
+      "description": "Delicious dish",
+      "picture_url": "https://img.freepik.com/free-photo/zucchini-cream-soup-with-garlic-chilli_2829-19613.jpg"
+    },
+    {
+      "id": 259,
+      "name": "pasta ",
+      "price": 1000,
+      "category": "italian",
+      "description": "Delicious dish",
+      "picture_url": "https://img.freepik.com/free-photo/zucchini-cream-soup-with-garlic-chilli_2829-19613.jpg"
+    },
+    {
+      "id": 262,
+      "name": "Souppppp",
+      "price": 44444,
+      "category": "mexican",
+      "description": "plato mexicano",
+      "picture_url": "https://t1.rg.ltmcdn.com/es/posts/4/2/6/los_15_platos_mas_tipicos_de_mexico_71624_600.jpg"
+    },
+    {
+      "id": 263,
+      "name": "Tacacho con cecina",
+      "price": 44444,
+      "category": "peruvian",
+      "description": "Tacacho con cecina",
+      "picture_url": "https://comidasperuanas.net/wp-content/uploads/2017/07/Tacacho-con-cecina.webp"
+    },
+    {
+      "id": 264,
+      "name": "Sushi 1",
+      "price": 100,
+      "category": "sushi",
+      "description": "sushisito",
+      "picture_url": "https://www.eltiempo.com/files/image_640_428/uploads/2020/06/17/5eeac3162ff67.png"
+    },
+    {
+      "id": 208,
+      "name": "Pasta Dishs update2",
+      "price": 1000,
+      "category": "peruvian",
+      "description": "Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.",
+      "picture_url": "https://comidasperuanas.net/wp-content/uploads/2017/07/Tacacho-con-cecina.webp"
+    },
+    {
+      "id": 266,
+      "name": "Ceviche",
+      "price": 12000,
+      "category": "peruvian",
+      "description": "El ceviche es un plato típico de la gastronomía peruana y ha tenido tanto éxito que sus sabores se han extendido a otros países latinoamericanos",
+      "picture_url": "https://t2.rg.ltmcdn.com/es/posts/7/4/1/ceviche_peruano_18147_600.jpg"
+    },
+    {
+      "id": 273,
+      "name": "Seco de frejol",
+      "price": 15,
+      "category": "peruvian",
+      "description": "Delicious dish",
+      "picture_url": "https://cocinaperuana.espaciolatino.com/recetas-de-cordero/img600/seco-cabrito.jpg"
+    },
+    {
+      "id": 274,
+      "name": "pachamanca",
+      "price": 30,
+      "category": "peruvian",
+      "description": "Delicious dish",
+      "picture_url": "https://www.elperuano.pe/fotografia/thumbnail/2021/02/07/000107718M.jpg"
+    },
+    {
+      "id": 207,
+      "name": "Tripas de puerco",
+      "price": 1250,
+      "category": "peruvian",
+      "description": "Delicious dish",
+      "picture_url": "http://2.bp.blogspot.com/-A9baHtQ4SlE/Tu-hnNezU4I/AAAAAAAAFWc/sUTJScirbqc/s640/1.jpg"
+    },
+    {
+      "id": 265,
+      "name": "lomo saltado",
+      "price": 25000,
+      "category": "peruvian",
+      "description": "Delicious dish",
+      "picture_url": "https://es.cravingsjournal.com/wp-content/uploads/2021/08/lomo-saltado-3-500x500.jpg"
+    },
+    {
+      "id": 275,
+      "name": "ratatouille",
+      "price": 30,
+      "category": "french ",
+      "description": "Delicious dish",
+      "picture_url": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/9cffafab1d5436c0695bd417c6200a19/Derivates/400b7cd10996dc118063ff8c2028e2627e28bd36.jpg"
+    },
+    {
+      "id": 268,
+      "name": "arroz chaufa",
+      "price": 20,
+      "category": "peruvian",
+      "description": "Delicious dish",
+      "picture_url": "https://www.tqma.com.ec/images/com_yoorecipe/banner_superior/16330_1.jpg"
+    },
+    {
+      "id": 269,
+      "name": "marco",
+      "price": 12,
+      "category": "peruvian",
+      "description": "es rico",
+      "picture_url": "https://static-sevilla.abc.es/media/gurmesevilla/2012/01/comida-rapida-casera.jpg"
+    },
+    {
+      "id": 270,
+      "name": "hamburguesa prueba",
+      "price": 15,
+      "category": "mexican",
+      "description": "es bien rica",
+      "picture_url": "https://static-sevilla.abc.es/media/gurmesevilla/2012/01/comida-rapida-casera.jpg"
+    },
+    {
+      "id": 276,
+      "name": "carapulcra",
+      "price": 15,
+      "category": "peruvian",
+      "description": "Delicious dish",
+      "picture_url": "https://minichef.b-cdn.net/assets/40/44/95/0d/00/fd/dsc_3665%20(2).jpg"
+    },
+    {
+      "id": 249,
+      "name": "pasta",
+      "price": 20,
+      "category": "italian",
+      "description": "Delicious dish",
+      "picture_url": "https://img.freepik.com/free-photo/zucchini-cream-soup-with-garlic-chilli_2829-19613.jpg"
+    },
+    {
+      "id": 285,
+      "name": "Arroz con Pato",
+      "price": 10,
+      "category": "peruvian",
+      "description": "Arroz muy rico con pollo ",
+      "picture_url": "https://i.ytimg.com/vi/4kmy5EOQqqM/maxresdefault.jpg"
+    },
+    {
+      "id": 286,
+      "name": "Papa Frita",
+      "price": 15,
+      "category": "Peruvian",
+      "description": "Description test 2",
+      "picture_url": "https://i.ytimg.com/vi/4kmy5EOQqqM/maxresdefault.jpg"
+    },
+    {
+      "id": 287,
+      "name": "Papa Rellena",
+      "price": 15,
+      "category": "Peruvian",
+      "description": "Description test 2",
+      "picture_url": "https://i.ytimg.com/vi/4kmy5EOQqqM/maxresdefault.jpg"
+    }
+  ]
+}
