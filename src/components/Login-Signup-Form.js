@@ -25,7 +25,6 @@ const LoginButton = styled.div`
 `;
 
 const Form = ({ logInUp }) => {
-  console.log("HOLA");
   const [formData, setFormData] = useState({
     email: "",
     password: "",

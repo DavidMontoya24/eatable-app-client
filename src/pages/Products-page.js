@@ -94,6 +94,7 @@ export default function ProductsPage() {
     return (allProductCtgry = makeUniqueArr(allProductCtgry));
   }
 
+  // eslint-disable-next-line
   const searchMemoized = useCallback(
     debounce((query) => {
       console.log(query);

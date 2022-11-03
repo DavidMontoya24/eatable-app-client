@@ -9,10 +9,12 @@ function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
   const navigate = useNavigate();
   useEffect(() => {
+    if (!user) return;
+
     getUser()
       .then(setUser)
-      .catch((error) => console.log(error));
-  }, []);
+      .catch((error) => console.log(error.message));
+  }, [user]);
 
   function handleLogin(credentials) {
     return login(credentials).then((user) => {

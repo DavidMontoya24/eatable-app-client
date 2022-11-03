@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
-import { css } from '@emotion/react';
-import { colors } from './colors';
-import { fonts } from './typography';
+import { css } from "@emotion/react";
+import { colors } from "./colors";
+import { fonts } from "./typography";
 
 export const reset = css`
   @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
@@ -25,8 +25,8 @@ export const reset = css`
     margin: 0;
   }
   /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-  ul[role='list'],
-  ol[role='list'] {
+  ul[role="list"],
+  ol[role="list"] {
     list-style: none;
   }
   /* Set core root defaults */
@@ -35,7 +35,7 @@ export const reset = css`
   }
   /* Set core body defaults */
   body {
-    min-height: 100vh;
+    height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
     background-color: ${colors.lightgray};
@@ -71,12 +71,17 @@ export const reset = css`
       scroll-behavior: auto !important;
     }
   }
+  #bg {
+    background-color: ${colors.orange};
+    height: 100%;
+  }
   #root {
     max-width: 414px;
     min-width: 414px;
     margin: 0 auto;
     border-radius: 20px;
-    box-shadow: 0px 0px 30px 10px rgba(0,0,0,.2);
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.2);
+    background-color: ${colors.background};
   }
 `;
 

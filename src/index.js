@@ -1,20 +1,20 @@
 import React from "react";
-import ReactDOM from 'react-dom/client';
+import ReactDOM from "react-dom/client";
 import { Global } from "@emotion/react";
 import { global, reset } from "./styles";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import { AuthProvider } from "./context/auth-context";
-import loading from './assets/loading.png';
-import Logo from './assets/eatable-logo.svg';
+import loading from "./assets/loading.png";
+import Logo from "./assets/eatable-logo.svg";
 import styled from "@emotion/styled";
 import { colors } from "./styles";
 
 const ContainerLoading = styled.div`
   position: relative;
-    display: inline-block;
-    text-align: center;
-`
+  display: inline-block;
+  text-align: center;
+`;
 
 const ContainerLogo = styled.div`
   width: 262px;
@@ -26,12 +26,11 @@ const ContainerLogo = styled.div`
   position: absolute;
   top: 317px;
   left: 76px;
-
-`
+`;
 
 const ImageTitle = styled.img`
-margin-top: 86px;
-`
+  margin-top: 86px;
+`;
 
 const LoginSubTitle = styled.div`
   font-weight: 600;
@@ -41,33 +40,31 @@ const LoginSubTitle = styled.div`
   color: ${colors.orange};
 `;
 
-setTimeout(loadingMain, 2000)
-loadingPage()
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-function loadingPage(){
+setTimeout(loadingMain, 2000);
+loadingPage();
 
-  const root = ReactDOM.createRoot(document.getElementById('root'));
-
+function loadingPage() {
   root.render(
     <React.StrictMode>
       <Global styles={global} />
       <Global styles={reset} />
       <ContainerLoading>
-      <img src={loading} alt="Loading"/>
-      <ContainerLogo>
-        <ImageTitle src={Logo} alt='logo' />
-        <LoginSubTitle>Food for Everyone</LoginSubTitle>
-      </ContainerLogo>
+        <img src={loading} alt="Loading" />
+        <ContainerLogo>
+          <ImageTitle src={Logo} alt="logo" />
+          <LoginSubTitle>Food for Everyone</LoginSubTitle>
+        </ContainerLogo>
       </ContainerLoading>
     </React.StrictMode>
   );
-
 }
 
-function loadingMain()
-{
-  const root = ReactDOM.createRoot(document.getElementById('root'));
-
+function loadingMain() {
+  console.log("TRY INPUT:");
+  console.log("email: david@mail.com");
+  console.log("password: 123456");
   root.render(
     <React.StrictMode>
       <Global styles={global} />
@@ -80,4 +77,3 @@ function loadingMain()
     </React.StrictMode>
   );
 }
-
